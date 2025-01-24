@@ -4,3 +4,5 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 -- set the number of spaces used for autoindentation
 vim.opt.shiftwidth = 4
+
+vim.g.lazyvim_python_lsp = "basedpyright"

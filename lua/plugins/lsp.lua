@@ -1,7 +1,7 @@
 return {
   { "neovim/nvim-lspconfig", opts = {
     servers = {
-      pyright = {},
+      basedpyright = {},
     },
   } },
   {
@@ -11,7 +11,7 @@ return {
         "stylua",
         "clangd",
         "lua-language-server",
-        "pyright",
+        "basedpyright",
         "ruff",
         "black",
       },
