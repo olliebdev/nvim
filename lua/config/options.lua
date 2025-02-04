@@ -5,4 +5,8 @@ vim.opt.softtabstop = 4
 -- set the number of spaces used for autoindentation
 vim.opt.shiftwidth = 4
 
+-- set python lsp
 vim.g.lazyvim_python_lsp = "basedpyright"
+
+-- set file picker
+vim.g.lazyvim_picker = "snacks"
